@@ -7,3 +7,6 @@
 - CI führt `lint` und **ticket-smoke** aus. Ein PR ist *grün*, wenn Smoke der betroffenen Tickets grün ist.
 
 Siehe `artefacts/Artefact_Index_v0.1.md`.
+
+
+![CI](https://github.com/Stephan-adod/sptw-social-proof-starter/actions/workflows/ci.yml/badge.svg)
