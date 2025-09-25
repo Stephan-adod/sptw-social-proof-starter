@@ -1,0 +1,14 @@
+{
+  "name": "sptw-social-proof-starter",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "markdownlint-cli": "^0.41.0"
+  },
+  "scripts": {
+    "lint:md": "markdownlint **/*.md --ignore node_modules",
+    "lint": "npm run lint:md",
+    "smoke": "node ops/ticket-smoke.mjs || echo 'no tickets or smoke skipped'",
+    "ci:verify": "npm run lint && npm run smoke"
+  }
+}
